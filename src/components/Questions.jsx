@@ -4,14 +4,6 @@ import '../App.css'
 import '../index.css'
 
 export default function Questions({questionDB}) {
-
-    /* 
-        1. style.
-        2. add some additional features
-                - when submit answers is clicked, show a screen `${}/10 correct!`
-                - [restart]
-    */
-
     // hold answers
     const [answers, setAnswers] = useState([])
 
